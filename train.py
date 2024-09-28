@@ -182,7 +182,6 @@ if __name__ == "__main__":
     )
     EPOCHS = 5
 
-    #! NEED to parse trainig data
     train_dl, valid_dl = train_dataloader, val_dataloader
 
     train(
