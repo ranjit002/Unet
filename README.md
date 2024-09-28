@@ -1,2 +1,2 @@
 # Unet
-Implementation of Unet for segmentation task
+Implementation of Unet for binary segmentation task
