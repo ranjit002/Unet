@@ -1,5 +1,6 @@
 import torch
 from model import UNET
+from preprocess import train_dataloader, val_dataloader
 from torch import nn
 from tqdm import tqdm  # progress bar
 
@@ -181,8 +182,7 @@ if __name__ == "__main__":
     )
     EPOCHS = 5
 
-    #! NEED to parse trainig data
-    train_dl, valid_dl = None, None
+    train_dl, valid_dl = train_dataloader, val_dataloader
 
     train(
         CNN_model,
