@@ -1,5 +1,5 @@
 # Unet
-Implementation of Unet for binary segmentation task
+Implementation of a deep convolutional network (Unet) for binary segmentation task
 
 The pictures below come from a model trained completely on my laptop!
 These pictures are all part of the testing dataset, so the model hasn't seen them before.
